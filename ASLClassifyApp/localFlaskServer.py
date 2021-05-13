@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
 """
 Created on Mon Feb 3 11:54:06 2020
-@author: gagoyal
+@author: twilkinson
 """
 from flask import Flask, request
 from werkzeug.utils import secure_filename
 app = Flask(__name__)
-VIDEOS_FOLDER = '/users/gagoyal/Downloads/ASLClassifyApp/app/Recordings/'
+VIDEOS_FOLDER = '/users/twilkinson/Downloads/ASLClassifyApp/app/Recordings/'
 
 @app.route('/uploader' , methods=['GET' , 'POST'])
 def upload_file():    
