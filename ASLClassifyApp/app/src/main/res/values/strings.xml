@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">ASL Classify App</string>
+    <string-array name="gesture_list">
+        <item>Select a gesture...</item>
+        <item>buy</item>
+        <item>house</item>
+        <item>fun</item>
+        <item>hope</item>
+        <item>arrive</item>
+        <item>really</item>
+        <item>read</item>
+        <item>lip</item>
+        <item>mouth</item>
+        <item>some</item>
+        <item>communicate</item>
+        <item>write</item>
+        <item>create</item>
+        <item>pretend</item>
+        <item>sister</item>
+        <item>man</item>
+        <item>one</item>
+        <item>drive</item>
+        <item>perfect</item>
+        <item>mother</item>
+    </string-array>
+    <string name="record">Record</string>
+    <string name="stop">Stop</string>
+    <string name="description_info">Info</string>
+    <string name="permission_request">This sample needs permission for camera and audio recording.</string>
+    <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+    <string name="intro_message">Hello world!</string>
+</resources>

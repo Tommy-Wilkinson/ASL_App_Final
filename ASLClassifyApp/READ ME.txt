@@ -1,0 +1,8 @@
+1) Change VIDEOS_FOLDER path in localFlaskServer.py file to the desired location. This file is present in ASLClassifyApp folder.
+Recorded Videos will be uploaded in this directory.
+2) Run python localFlaskServer.py command to start the flask server in the terminal. This file is present in the ASLClassifyApp folder.
+3) USE_GESTURE_URLS flag in AppConstant.java class can be changed to false if we want to load videos from local; otherwise, it will load from the server directly as default.
+Note: If the expert’s video doesn’t play on 2nd screen, then we will recommend setting this variable to false and build/rerun the app.
+Certified Simulators:
+1. Pixel 3a (API 29) - Preferred
+2. Nexus 9 (API 29)
